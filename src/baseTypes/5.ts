@@ -4,6 +4,9 @@
 */
 
 let union: string | number;
+union = "Hello";
+union = 100;
+
 type Literal = "enable" | "disable";
 let literal: Literal;
 literal = "enable";
