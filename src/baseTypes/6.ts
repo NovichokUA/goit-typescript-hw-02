@@ -14,7 +14,7 @@ function calc(num1: number, num2: number): number {
 
 calc(5, 3);
 
-function customError(): string {
+function customError(): never {
   throw new Error("Error");
 }
 
